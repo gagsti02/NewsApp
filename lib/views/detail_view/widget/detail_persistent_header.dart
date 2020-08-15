@@ -26,7 +26,6 @@ class DetailPersistentHeader implements SliverPersistentHeaderDelegate {
   @override
   Widget build(
       BuildContext context, double shrinkOffset, bool overlapsContent) {
-    // TODO: implement build
     return Stack(children: [
       DetailPersistentHeaderImage(
         imageUrl: imageUrl,

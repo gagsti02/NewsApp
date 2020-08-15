@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sticky_header/flutter_sticky_header.dart';
 import 'package:listitems/viewmodels/categorize/sports_list_model.dart';
 import 'package:listitems/viewmodels/categorize/technology_list_model.dart';
 import 'package:listitems/viewmodels/headlines/article_list_model.dart';
-import 'package:listitems/views/detail_view/widget/detail_flexible_space.dart';
-import 'package:listitems/views/detail_view/widget/detail_header.dart';
 import 'package:listitems/views/detail_view/widget/detail_persistent_header.dart';
 
 class DetailView extends StatefulWidget {
@@ -23,7 +20,6 @@ class _DetailViewState extends State<DetailView> with TickerProviderStateMixin {
   TabController tabContoller;
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     tabContoller = new TabController(
       vsync: this,
