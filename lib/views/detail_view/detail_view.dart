@@ -93,34 +93,5 @@ class _DetailViewState extends State<DetailView> with TickerProviderStateMixin {
         ),
       ),
     );
-
-//OLD RETURN
-    // return Scaffold(
-    //   body: CustomScrollView(
-    //     slivers: [
-    //       SliverAppBar(
-    //         pinned: true,
-    //         expandedHeight: 50.0,
-    //       ),
-    //       SliverPersistentHeader(
-    //           pinned: false,
-    //           delegate: DetailPersistentHeader(arti.author, arti.publishedAt,
-    //               arti.imageUrl, arti.title, arti.description, 300, 350)),
-    //       SliverList(
-    //         delegate: SliverChildListDelegate([
-    //           Padding(
-    //             padding: const EdgeInsets.all(8.0),
-    // child: Text(
-    //   arti.description ?? "",
-    //   style: TextStyle(
-    //     fontSize: 35,
-    //               ),
-    //             ),
-    //           )
-    //         ]),
-    //       ),
-    //     ],
-    //   ),
-    // );
   }
 }
